@@ -8,7 +8,7 @@ async function launchHeadlessChrome() {
 
   // Your test logic using the driver here...
 
-//   await driver.quit();
+  await driver.quit();
 }
 
 launchHeadlessChrome();
