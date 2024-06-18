@@ -3,6 +3,7 @@ const assert = require("assert");
 async function loginTest() {
   // launch the browser
   let driver = await new Builder().forBrowser("chrome").build();
+  driver.manage().window().maximize();
   try {
     //navigate to facebook login page
     await driver.get("https://test-login-app.vercel.app/");
