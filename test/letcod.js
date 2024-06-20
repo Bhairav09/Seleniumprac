@@ -13,7 +13,7 @@ async function userSignupLoginFlow() {
     await driver.wait(until.elementLocated(By.xpath("//a[text()='Edit']")), 10000).click();
 
     // Enter full name
-    // await driver.findElement(By.id('fullName')).sendKeys('Dinesh Kolati');
+     await driver.findElement(By.id('fullName')).sendKeys('Dinesh Kolati');
 
     // Clear join field and enter new value
     await driver.findElement(By.xpath("//input[@id='join']")).clear();
