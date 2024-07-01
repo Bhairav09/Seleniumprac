@@ -14,7 +14,6 @@
     "selenium-webdriver": "^4.21.0"
   },
   "devDependencies": {
-    "@faker-js/faker": "^8.4.1",
     "archiver": "^7.0.1",
     "mocha": "^10.4.0",
     "mochawesome": "^7.1.3",
